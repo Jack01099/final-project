@@ -5,7 +5,7 @@ export const Product = (props) => {
   const { product } = props;
   return (
     <div div className='card' key={product._id}>
-      <a href={`/products/${product._id}`}>
+      <a href={`/product/${product._id}`}>
         {/* images size: 680px by 830px  */}
         <img className='medium' src={product.image} alt={product.name} />
       </a>
