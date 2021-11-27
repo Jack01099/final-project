@@ -18,7 +18,7 @@ function App() {
           </Link>
         </div>
         <div>
-          <Link to='cart.html'>
+          <Link to='/cart/:id?'>
             Cart
             {cartItems.length > 0 && (
               <span className='badge'>{cartItems.length}</span>

@@ -123,6 +123,9 @@ button:hover {
 .col-2 {
   flex: 2 1 25rem;
 }
+.min-30 {
+  min-width: 20rem;
+}
 /* End Col-Row */
 
 ul {
@@ -150,6 +153,10 @@ header a {
 /* Image */
 img {
   border-radius: 0.5rem;
+}
+img.small {
+  max-width: 5rem;
+  width: 100%;
 }
 img.medium {
   max-width: 20rem;
