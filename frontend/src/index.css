@@ -2,7 +2,7 @@ html {
   font-size: 1rem;
   box-sizing: border-box;
 }
-main {
+body {
   margin: 0;
   height: 100vh;
   font-size: 1.6rem;
