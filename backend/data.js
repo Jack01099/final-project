@@ -1,7 +1,22 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+  users: [
+    {
+      name: 'Basir',
+      email: 'admin@example.com',
+      password: bcrypt.hashSync('1234', 8),
+      isAdmin: true,
+    },
+    {
+      name: 'John',
+      email: 'user@example.com',
+      password: bcrypt.hashSync('1234', 8),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
-      _id: '1',
       name: 'Tropical Tea',
       category: 'fruit-tea',
       image: '/images/fruit-tea-1.png',
@@ -13,7 +28,6 @@ const data = {
       description: 'high-quality',
     },
     {
-      _id: '2',
       name: 'Milk Tea Okinawa',
       category: 'milk-tea',
       image: '/images/milk-tea-1.png',
@@ -25,7 +39,6 @@ const data = {
       description: 'high-quality',
     },
     {
-      _id: '3',
       name: 'Milk Tea Matcha',
       category: 'milk-tea',
       image: '/images/milk-tea-2.png',
@@ -37,7 +50,6 @@ const data = {
       description: 'high-quality',
     },
     {
-      _id: '4',
       name: 'Smoothie Strawberry',
       category: 'smoothie',
       image: '/images/smoothie-1.png',
@@ -49,7 +61,6 @@ const data = {
       description: 'high-quality',
     },
     {
-      _id: '5',
       name: 'Oloong Tea',
       category: 'tea',
       image: '/images/tea-1.png',
@@ -61,7 +72,6 @@ const data = {
       description: 'high-quality',
     },
     {
-      _id: '6',
       name: 'Black Tea',
       category: 'tea',
       image: '/images/tea-2.png',
