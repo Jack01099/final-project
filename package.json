@@ -1,0 +1,28 @@
+{
+  "name": "final-project",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "ecom website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch backend node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jack01099/final-project.git"
+  },
+  "author": "jack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jack01099/final-project/issues"
+  },
+  "homepage": "https://github.com/Jack01099/final-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
